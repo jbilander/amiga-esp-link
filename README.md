@@ -12,3 +12,12 @@ It's also possible to get Console output of diagrom displayed from your Amiga to
 No driver needs to be installed on the Amiga side as long as you don't want to replace the `serial.device` that comes with AmigaOS. A better replacement is `8n1.device` available in two versions on Aminet here: https://aminet.net/search?query=8n1  <br />
 one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I have successfully used the `8n1.device` driver at `38400` baud speed setting on a plain standard A500.
 
+
+### Installing esp-link firmware
+
+1. We start by flashing the esp-link to our esp8266 board.<br /> I'm going to do that with the `Flash Download Tools` available from Espressif.<br />
+   First download the Expressif download tool for esp8266 from their site:<br />
+   https://www.espressif.com/en/support/download/other-tools <br />
+   <a href="pics/amiga-esp-link_pic1.jpg">
+   <img src="pics/amiga-esp-link_pic1.jpg" width="470" height="94">
+   </a>
