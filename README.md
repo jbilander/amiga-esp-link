@@ -20,4 +20,13 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    https://www.espressif.com/en/support/download/other-tools <br />
    <a href="pics/amiga-esp-link_pic1.jpg">
    <img src="pics/amiga-esp-link_pic1.jpg" width="470" height="94">
+   </a><br />
+   <a href="pics/amiga-esp-link_pic2.jpg">
+   <img src="pics/amiga-esp-link_pic2.jpg" width="357" height="246">
    </a>
+   <a href="pics/amiga-esp-link_pic3.jpg">
+   <img src="pics/amiga-esp-link_pic3.jpg" width="230" height="246">
+   </a>
+
+2. Ok, now we follow the instructions on what files to download and put in to our flash download tool.<br />
+   https://github.com/jeelabs/esp-link/blob/master/FLASHING.md#initial-serial-flashing
