@@ -40,3 +40,29 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    <a href="pics/amiga-esp-link_pic4.jpg">
    <img src="pics/amiga-esp-link_pic4.jpg" width="482" height="488">
    </a><br />
+
+6. If the flashing went well then push the reset-button on your ESP-device and it should now boot and start blinking to show it's now setup as an AP (AccessPoint). You should now be able to connect to it by using for example your phone. Put in a manual IP-address on the same subnet as the AP (192.168.4.0/24). The AP is set to `192.168.4.1` by default so your phone can be set to for example `192.168.4.2` with a netmask of `255.255.255.0`<br /><br />
+   
+   <a href="pics/amiga-esp-link_pic5.jpg">
+   <img src="pics/amiga-esp-link_pic5.jpg" width="188" height="324">
+   </a><br />
+   You should now be able to connect to it:<br />
+   <br />
+   <a href="pics/amiga-esp-link_pic6.jpg">
+   <img src="pics/amiga-esp-link_pic6.jpg" width="234" height="100">
+   </a>
+   <br />
+   
+7. Now point your browser to `http://192.168.4.1` and you should see the esp-link homepage, we now want to put the device into `STA-mode` (Station-mode) so that it can join our home-wifi-network and get an IP from our home router instead so that we can access this page from our PC. Put the device in `AP + STA`-mode and click the `Wifi Station` and select your wifi-network and put in your `WPA2`-password and connect. Do NOT connect to `SkyNet` or `The Sausage Cartel` :)
+   
+   <a href="pics/amiga-esp-link_pic7.jpg">
+   <img src="pics/amiga-esp-link_pic7.jpg" width="225" height="389">
+   </a>
+   <a href="pics/amiga-esp-link_pic8.jpg">
+   <img src="pics/amiga-esp-link_pic8.jpg" width="225" height="389">
+   </a>
+   <br />
+   
+   
+   
+   
