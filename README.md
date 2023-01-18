@@ -41,11 +41,13 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    <img src="pics/amiga-esp-link_pic4.jpg" width="482" height="488">
    </a><br />
 
+### Configuring esp-link to STA-mode
 6. If the flashing went well then push the reset-button on your ESP-device and it should now boot and start blinking to show it's now setup as an AP (AccessPoint). You should now be able to connect to it by using for example your phone. Put in a manual IP-address on the same subnet as the AP (192.168.4.0/24). The AP is set to `192.168.4.1` by default so your phone can be set to for example `192.168.4.2` with a netmask of `255.255.255.0`<br /><br />
    
    <a href="pics/amiga-esp-link_pic5.jpg">
    <img src="pics/amiga-esp-link_pic5.jpg" width="188" height="324">
    </a><br />
+   <br />
    You should now be able to connect to it:<br />
    <br />
    <a href="pics/amiga-esp-link_pic6.jpg">
@@ -54,7 +56,8 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    <br />
    
 7. Now point your browser to `http://192.168.4.1` and you should see the esp-link homepage, we now want to put the device into `STA-mode` (Station-mode) so that it can join our home-wifi-network and get an IP from our home router instead so that we can access this page from our PC. Put the device in `AP + STA`-mode and click the `Wifi Station` and select your wifi-network and put in your `WPA2`-password and connect. Do NOT connect to `SkyNet` or `The Sausage Cartel` :)
-   
+   <br />
+   <br />
    <a href="pics/amiga-esp-link_pic7.jpg">
    <img src="pics/amiga-esp-link_pic7.jpg" width="225" height="389">
    </a>
@@ -62,7 +65,36 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    <img src="pics/amiga-esp-link_pic8.jpg" width="225" height="389">
    </a>
    <br />
-   
-   
-   
-   
+   <br />
+   After verifying you are connected to your wifi-network, notice what IP-address you got from the router (I got `192.168.1.22` here), now switch to STA-mode by pressing the "*Switch to `STA-mode`*" link:
+   <br />
+   <br />
+   <a href="pics/amiga-esp-link_pic9.jpg">
+   <img src="pics/amiga-esp-link_pic9.jpg" width="225" height="389">
+   </a>
+   <a href="pics/amiga-esp-link_pic10.jpg">
+   <img src="pics/amiga-esp-link_pic10.jpg" width="225" height="389">
+   </a>
+   <br />
+   <br />
+   After pressing the "*Switch to `STA-mode`*" link the phone access to the esp-link homepage is now gone (since the 192.168.4.1 AP is not there any more). Now remove this connection from your phone and try and access the esp-link homepage through your browser on your PC.
+   <br />
+   <br />
+   Yay! it worked, now press the home tab and configure the *Pin Assignment* according to how you want it. This is how I configured it:
+   <br />
+   <br />
+   <a href="pics/amiga-esp-link_pic11.jpg">
+   <img src="pics/amiga-esp-link_pic11.jpg" width="471" height="425">
+   </a>
+   <br />
+
+   Explanation of Pin assignment
+   ---------
+   Name  | Description
+   -|-|
+   Reset | Connect to µC reset pin for programming and reset-µC function 
+   ISP/Flash | Second signal to program µC. AVR:not used, esp8266:gpio2, ARM:ISP
+   Conn LED | LED to show WiFi connectivity
+   Serial LED | LED to show serial activity
+   UART pins | Swap UART0 pins to avoid ROM boot message. Normal is TX on gpio1/TX0 and RX on gpio3/RX0, swapped is TX on gpio15 and RX on gpio13.
+   RX pull-up | Enable internal 40K pull-up on RX
