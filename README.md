@@ -103,6 +103,7 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    <br />
    <a href="pics/amiga-esp-link_pic12.jpg">
    <img src="pics/amiga-esp-link_pic12.jpg" width="520" height="368">   
+   </a>
    <br />
    
 ### Installing a virtual serial port on PC
@@ -117,3 +118,19 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    <br />
    <br />
    Installing and configuring HW VSP3:<br />
+   <br />
+   Download and install latest version of HW VSP3 Single:
+   <br />
+   <a href="pics/amiga-esp-link_pic13.jpg">
+   <img src="pics/amiga-esp-link_pic13.jpg" width="494" height="283">
+   </a>
+   <br />
+   <br />
+   I chose the default installation options throughout the installation Wizard:<br />
+   <a href="pics/amiga-esp-link_pic14.jpg">
+   <img src="pics/amiga-esp-link_pic14.jpg" width="257" height="200">
+   </a>
+   <a href="pics/amiga-esp-link_pic15.jpg">
+   <img src="pics/amiga-esp-link_pic15.jpg" width="257" height="200">
+   </a>
+   <br />
