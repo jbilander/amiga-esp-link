@@ -98,3 +98,16 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    Serial LED | LED to show serial activity
    UART pins | Swap UART0 pins to avoid ROM boot message. Normal is TX on gpio1/TX0 and RX on gpio3/RX0, swapped is TX on gpio15 and RX on gpio13.
    RX pull-up | Enable internal 40K pull-up on RX
+   
+### Installing a virtual serial port on PC
+
+8. In order to transfer serial data over TCP/IP we need to install a virtual serial port that can redirect serial data to network traffic. For this I install HW VSP3 on my Windows Machine. There are other solutions for this as well.
+   <br />
+   <br />
+   https://www.hw-group.com/software/hw-vsp3-virtual-serial-port
+   <br />
+   <br /> 
+   HW VSP is a software driver that adds a virtual serial port (e.g. COM5) to the operating system and redirects the data from this port via a TCP/IP network to another hardware interface, which is specified by its IP address and port number.
+   <br />
+   <br />
+   Installing and configuring HW VSP3:<br />
