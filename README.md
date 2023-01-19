@@ -88,7 +88,7 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    </a>
    <br />
 
-   Explanation of Pin assignment
+   Explanation of Pin assignment (options above)
    ---------
    Name  | Description
    -|-|
@@ -98,6 +98,12 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    Serial LED | LED to show serial activity
    UART pins | Swap UART0 pins to avoid ROM boot message. Normal is TX on gpio1/TX0 and RX on gpio3/RX0, swapped is TX on gpio15 and RX on gpio13.
    RX pull-up | Enable internal 40K pull-up on RX
+   
+   Pinout for the module I'm using for esp-link, LoLin NodeMCU V3:<br />
+   <br />
+   <a href="pics/amiga-esp-link_pic12.jpg">
+   <img src="pics/amiga-esp-link_pic12.jpg" width="520" height="368">   
+   <br />
    
 ### Installing a virtual serial port on PC
 
