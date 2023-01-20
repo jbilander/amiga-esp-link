@@ -134,3 +134,22 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    <img src="pics/amiga-esp-link_pic15.jpg" width="257" height="200">
    </a>
    <br />
+   <br />
+   Now start the HW Virtual Serial Port from the start menu. It is now in read-only mode, click the `Login` button and `OK`, that should elevate permission level to `Admin-access`-mode. Now select a COM-port number you want to create. I chose `COM5` here, also put in the esp-link `IP-address` and port number `2323`, and then click `Create COM` button.<br />
+   <a href="pics/amiga-esp-link_pic16.jpg">
+   <img src="pics/amiga-esp-link_pic16.jpg" width="302" height="245">
+   </a>
+   <a href="pics/amiga-esp-link_pic17.jpg">
+   <img src="pics/amiga-esp-link_pic17.jpg" width="302" height="245">
+   </a>
+   <br />
+   <br />
+   Great, now the virtual COM-port should have been added. Verify that you now have it displaying in the Device Manager:<br />
+   <a href="pics/amiga-esp-link_pic18.jpg">
+   <img src="pics/amiga-esp-link_pic18.jpg" width="302" height="245">
+   </a>
+   <a href="pics/amiga-esp-link_pic19.jpg">
+   <img src="pics/amiga-esp-link_pic19.jpg" width="309" height="201">
+   </a>
+   <br />
+   <br />
