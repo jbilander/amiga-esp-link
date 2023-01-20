@@ -153,3 +153,40 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    </a>
    <br />
    <br />
+   Now in order to be able to test our newly created COM-port we need a terminal program that can connect via serial. I will use `Tera Term` here, but you can use `Putty` or `KiTTY` or pick your favorite terminal. The good thing with Tera Term is that it has built-in support for old school file transfer protocols such as `Z-modem` and `Kermit` among others.<br />
+   Download and install Tera Term:<br />
+   https://osdn.net/projects/ttssh2/releases/
+   <br />
+   <a href="pics/amiga-esp-link_pic20.jpg">
+   <img src="pics/amiga-esp-link_pic20.jpg" width="318" height="206">
+   </a>
+   <a href="pics/amiga-esp-link_pic21.jpg">
+   <img src="pics/amiga-esp-link_pic21.jpg" width="268" height="211">
+   </a>
+   <br />
+   <br />
+   Click `Cancel` and set the following config for Tera Term `Setup->Terminal...` and `Setup->Serial Port...`
+   <br />
+   <br />
+   <a href="pics/amiga-esp-link_pic22.jpg">
+   <img src="pics/amiga-esp-link_pic22.jpg" width="253" height="120">
+   </a>
+   <a href="pics/amiga-esp-link_pic23.jpg">
+   <img src="pics/amiga-esp-link_pic23.jpg" width="339" height="327">
+   </a>
+   <br />
+   You can optionally tick the `Local echo`-checkbox if you want to see what you are typing in the Tera Term window when doing the following connection test.<br />
+   <br />
+   We are now ready to test the virtual com port, but first set the correct baud rate in esp-link:
+   <br />
+   <br />
+   <a href="pics/amiga-esp-link_pic24.jpg">
+   <img src="pics/amiga-esp-link_pic24.jpg" width="513" height="312">
+   </a>
+   <br />
+   <br />
+   Ok great, now activate the connection on Tera Term and type a letter, You should see in the status-window of the virtual port that a connection is open and that it has LAN connected and that the RX- and TX-counters increases as you type. Sweet! Pad yourself on the back and take a worthwhile coffee break before we hook up the Amiga to the ESP. Well done!
+   <br />
+   <br />
+   <a href="pics/amiga-esp-link_pic25.jpg">
+   <img src="pics/amiga-esp-link_pic25.jpg" width="483" height="393">
