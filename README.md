@@ -14,7 +14,7 @@ The esp-link will make it possible to do file transfers over Wi-Fi from the PC t
 It's also possible to get Console output of diagrom displayed from your Amiga to your PC this way. No cable needed :)<br />
 
 No driver needs to be installed on the Amiga side as long as you don't want to replace the `serial.device` that comes with AmigaOS. A better replacement is `8n1.device` available in two versions on Aminet here: https://aminet.net/search?query=8n1  <br />
-one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I have successfully used the `8n1.device` driver at `38400` baud speed setting on a plain standard A500.
+one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I have successfully used the `8n1.device` driver at `38400` baud speed setting on a plain standard A500 with some fast ram installed.
 
 
 ### Installing esp-link firmware
@@ -30,7 +30,7 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
 
 ***
 
-2. Now hook up your ESP8266-board to your PC. I'm using a LoLin NodeMCU V3 board here, pay attention to what COM-port it gets in your system. Mine got COM3 in Windows<br /><br />
+2. Now hook up your ESP8266-board to your PC. I'm using a LoLin NodeMCU V3 board here, pay attention to what COM-port it gets in your system. Mine got COM3 in Windows. You may have to install drivers for the CH340 USB-to-UART bridge chip or whatever chip your module uses for this to work.<br /><br />
    <a href="pics/amiga-esp-link_pic2.jpg">
    <img src="pics/amiga-esp-link_pic2.jpg" width="357" height="267">
    </a><br />
@@ -205,7 +205,7 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    </a>
    <br />
    <br />
-   Ok great, now activate the connection on Tera Term and type a letter, You should see in the status-window of the virtual port that a connection is open and that it has LAN connected and that the RX- and TX-counters increases as you type. Sweet! Pad yourself on the back and take a worthwhile coffee break before we hook up the Amiga to the ESP. Well done!
+   Ok great, now activate the connection on Tera Term and type a letter, You should see in the status-window of the virtual port that a connection is open and that it has LAN connected and that the RX- and TX-counters increases as you type. Sweet! Pat yourself on the back and take a worthwhile coffee break before we hook up the Amiga to the ESP. Well done!
    <br />
    <br />
    <a href="pics/amiga-esp-link_pic25.jpg">
