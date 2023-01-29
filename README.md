@@ -268,6 +268,7 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    </a>
    <br />
    <br />
+   
    * RS232 Serial to TTL:
       https://www.aliexpress.com/item/1005001685534114.html <br />
 
@@ -280,7 +281,7 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    </a>
    <br />
    <br />
-   I had to remove the nuts from one of the sides in order to connect them together. Now you only have to connect them together, Four wires is enough, TX, RX, 3V3 and GND. I connected RTS and CTS here as well but they are not used with esp-link. You can verify that the 3.3V from the ESP is ok before connecting it. <br />
+   I had to remove the nuts from one of the sides in order to connect them together. Now you only have to connect them together, Four wires is enough, TX, RX, 3V3 and GND. I connected RTS and CTS here as well but they are not used with esp-link. You can verify that the 3.3V from the ESP is ok before connecting it. The Led on GPIO is optional and only an indicator that the Wifi is online<br />
    <br />
    <a href="pics/amiga-esp-link_pic33.jpg">
    <img src="pics/amiga-esp-link_pic33.jpg" width="256" height="192">
@@ -288,3 +289,13 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    <a href="pics/amiga-esp-link_pic34.jpg">
    <img src="pics/amiga-esp-link_pic34.jpg" width="256" height="192">
    </a>
+   <br />
+   <br />
+   To power the ESP-module I made a cable to take 5V from the external floppy port of the Amiga. This goes to a micro-usb connector that plugs into the ESP32-module.
+   <br />
+   <br />
+   <a href="pics/amiga-esp-link_pic35.jpg">
+   <img src="pics/amiga-esp-link_pic35.jpg" width="512" height="384">
+   </a>
+   <br />
+   <br />
