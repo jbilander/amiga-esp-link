@@ -216,9 +216,8 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    </a>
    <br />
 
-   Ok great, now in the Kermit terminal set the com-port `set port com5` and your baud speed `set speed 38400` and type `connect`. If you type for example `hello` now you should see in the status-window of the virtual port that a connection is open and that it has LAN connected and that the RX- and TX-counters increases as you type.
+   Ok great, now in the Kermit terminal set the com-port `set port com5` and your baud speed `set speed 38400` and type `connect` and hit enter. If you type for example `hello` now you should see in the status-window of the virtual port that a connection is open and that it has LAN connected and that the RX- and TX-counters increases as you type.
 
-   <br />
    <a href="pics/amiga-esp-link_pic25.jpg">
    <img src="pics/amiga-esp-link_pic25.jpg" width="430" height="271">
    </a>
