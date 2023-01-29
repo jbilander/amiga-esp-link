@@ -7,6 +7,16 @@ With the wifi-serial bridge we can connect a PC and an Amiga together just like 
 
 ***
 
+<a href="pics/amiga-esp-link_pic28.jpg">
+<img src="pics/amiga-esp-link_pic28.jpg" width="512" height="384">
+</a>
+
+***
+Demo video here:<br />
+https://drive.google.com/file/d/1JXnxcCOAw7E6R6TP7SXa89liKBrgprrN/view?usp=sharing
+
+***
+
 The esp-link will make it possible to do file transfers over Wi-Fi from the PC to the Amiga and vice versa using a file transfer protocol like `Zmodem` or `Kermit` on each end. A popular program for doing this on the Amiga was [Ncomm](https://aminet.net/search?query=ncomm) back in the days. On the PC side we can use for example `Tera Term` (Windows) or `Minicom` (Linux).<br />
 
 ***
@@ -233,3 +243,48 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    </a>
 
 ***
+
+### Hooking up the Amiga to the ESP-module
+
+9. For this we need some gear:
+
+   <a href="pics/amiga-esp-link_pic28.jpg">
+   <img src="pics/amiga-esp-link_pic28.jpg" width="512" height="384">
+   </a>
+   
+   I have no affiliate or kickback from any of the links below I only show where I sourced the items from:
+
+   * StarTech.com DB9 till DB25 `AT925MF`<br />
+      https://www.amazon.com/StarTech-com-DB9-DB25-Seriell-Adapter/dp/B000087RYP/ <br />
+      Actually I bought from the Swedish Amazon site: <br />
+      https://www.amazon.se/StarTech-com-till-seriell-adapter-beige/dp/B000087RYP/ <br />
+      
+   <br />
+   <a href="pics/amiga-esp-link_pic29.jpg">
+   <img src="pics/amiga-esp-link_pic29.jpg" width="256" height="192">
+   </a>
+   <a href="pics/amiga-esp-link_pic30.jpg">
+   <img src="pics/amiga-esp-link_pic30.jpg" width="256" height="192">
+   </a>
+   <br />
+   <br />
+   * RS232 Serial to TTL:
+      https://www.aliexpress.com/item/1005001685534114.html <br />
+
+   <br />
+   <a href="pics/amiga-esp-link_pic31.jpg">
+   <img src="pics/amiga-esp-link_pic31.jpg" width="256" height="192">
+   </a>
+   <a href="pics/amiga-esp-link_pic32.jpg">
+   <img src="pics/amiga-esp-link_pic32.jpg" width="256" height="192">
+   </a>
+   <br />
+   <br />
+   I had to remove the nuts from one of the sides in order to connect them together. Now you only have to connect them together, Four wires is enough, TX, RX, 3V3 and GND. I connected RTS and CTS here as well but they are not used with esp-link. You can verify that the 3.3V from the ESP is ok before connecting it. <br />
+   <br />
+   <a href="pics/amiga-esp-link_pic33.jpg">
+   <img src="pics/amiga-esp-link_pic33.jpg" width="256" height="192">
+   </a>
+   <a href="pics/amiga-esp-link_pic34.jpg">
+   <img src="pics/amiga-esp-link_pic34.jpg" width="256" height="192">
+   </a>
