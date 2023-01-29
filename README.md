@@ -102,7 +102,7 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    <br />
    <br />
    <a href="pics/amiga-esp-link_pic11.jpg">
-   <img src="pics/amiga-esp-link_pic11.jpg" width="505" height="342">
+   <img src="pics/amiga-esp-link_pic11.jpg" width="505" height="467">
    </a>
    <br />
    In order to avoid avoid ROM boot message I choose "swapped" here which uses UART 2 pins instead, TX (TXD2) on gpio15 and RX (RXD2) on gpio13.
@@ -208,20 +208,29 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    <img src="pics/amiga-esp-link_pic23.jpg" width="367" height="234">
    </a>
    <br />
-   You can optionally tick the `Local echo`-checkbox if you want to see what you are typing in the Tera Term window when doing the following connection test.<br />
-   <br />
    We are now ready to test the virtual com port, but first set the correct baud rate in esp-link:
    <br />
    <br />
    <a href="pics/amiga-esp-link_pic24.jpg">
-   <img src="pics/amiga-esp-link_pic24.jpg" width="513" height="312">
+   <img src="pics/amiga-esp-link_pic24.jpg" width="505" height="467">
    </a>
    <br />
    <br />
-   Ok great, now activate the connection on Tera Term and type a letter, You should see in the status-window of the virtual port that a connection is open and that it has LAN connected and that the RX- and TX-counters increases as you type. Sweet! Pat yourself on the back and take a worthwhile coffee break before we hook up the Amiga to the ESP. Well done!
+   Ok great, now in the Kermit terminal set the com-port `set port com5` and your baud speed `set speed 38400` and type `connect`. If you type for example `hello` now you should see in the status-window of the virtual port that a connection is open and that it has LAN connected and that the RX- and TX-counters increases as you type.
    <br />
    <br />
    <a href="pics/amiga-esp-link_pic25.jpg">
-   <img src="pics/amiga-esp-link_pic25.jpg" width="483" height="393">
+   <img src="pics/amiga-esp-link_pic25.jpg" width="430" height="271">
+   </a>
+   <a href="pics/amiga-esp-link_pic26.jpg">
+   <img src="pics/amiga-esp-link_pic26.jpg" width="358" height="226">
+   </a>
+   <br />
+   
+   Sweet! Pat yourself on the back and take a worthwhile coffee break before we hook up the Amiga to the ESP. Well done!
+   
+   <a href="pics/amiga-esp-link_pic27.jpg">
+   <img src="pics/amiga-esp-link_pic27.jpg" width="603" height="492">
+   </a>
 
 ***
