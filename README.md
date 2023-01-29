@@ -298,4 +298,42 @@ one is for AmigaDOS 2.04+ (ONLY V37+), pick the correct one for your system. I h
    <img src="pics/amiga-esp-link_pic35.jpg" width="512" height="384">
    </a>
    <br />
+   
+   Now with the ESP-module connected we can start the Amiga kermit client and try and do a file transfer...<br />
+   `set line` and `set speed` and the alternative escape sequence (to ctrl + b) with `set esc 2` 
+   
    <br />
+   <a href="pics/amiga-esp-link_pic36.jpg">
+   <img src="pics/amiga-esp-link_pic36.jpg" width="256" height="192">
+   </a>
+   <a href="pics/amiga-esp-link_pic37.jpg">
+   <img src="pics/amiga-esp-link_pic37.jpg" width="256" height="192">
+   </a>
+   <br />
+   
+   Now connect and you should be able to chat from one computer to the other by typing in the consoles. Now on the Amiga escape back to the Local System by `ctrl + b` followed by a `c`. Now do a `remote dir`
+   
+   <br />
+   <a href="pics/amiga-esp-link_pic38.jpg">
+   <img src="pics/amiga-esp-link_pic38.jpg" width="304" height="192">
+   </a>
+   <a href="pics/amiga-esp-link_pic39.jpg">
+   <img src="pics/amiga-esp-link_pic39.jpg" width="256" height="192">
+   </a>
+   <br />
+   
+   Now simply type `get` followed by the filename you want to download:
+   
+   <br />
+   <a href="pics/amiga-esp-link_pic40.jpg">
+   <img src="pics/amiga-esp-link_pic40.jpg" width="256" height="192">
+   </a>
+   <a href="pics/amiga-esp-link_pic41.jpg">
+   <img src="pics/amiga-esp-link_pic41.jpg" width="304" height="192">
+   </a>
+   <br />
+   <br />
+   That's all folks!<br />
+   Happy Hackin´
+   
+   
